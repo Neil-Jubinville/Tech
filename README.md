@@ -46,7 +46,7 @@ ffmpeg -f avfoundation -i "1:0" -framerate 20 -vcodec libx264 -acodec aac  -g 20
 
 The UDP url address you see was the magic with the parameter for the packet size.
 
-### pkt_size=1316
+### udp://192.168.0.218:1234/?pkt_size=1316    <- See that param?  Love it.
 
 Also note that this command you want to run from the computer that you want to stream the camera or desktop.   The UDP address represents the unicast address that the UDP packects are destined for or the computer you want to display the stream on , which in my case was the OBS broadcast system.
 
